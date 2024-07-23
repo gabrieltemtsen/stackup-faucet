@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the Stackup Faucet, a decentralized application (dApp) designed to help Stackup community members request Sepolia testnet tokens. This platform enables users to request tokens every 24 hours and allows users to fund the faucet to help others. The leaderboard ranks users by their contributions, showcasing the most generous contributors.
+Welcome to the Stackup Faucet, a decentralized application (dApp) designed to help Stackup community members request Sepolia testnet tokens. This platform enables users to request tokens every 24 hours and allows users to fund the faucet to help others. The leaderboard ranks users by their contributions, showcasing the most generous contributors and they get rewarded stack points on discord.
 
 ## Features
 
@@ -26,8 +26,7 @@ The Stackup Faucet is built using modern web technologies, ensuring a seamless a
 ## Links
 
 - **Deployed Site**: [Stackup Faucet Live](https://stackup-faucet.vercel.app/)
-- **Video Demo**: [Watch Demo](https://your-demo-video-link.com)
-
+- **Video Demo**: [Watch Demo](https://youtu.be/X2ve8S8M8Ls) *(Video is muted due to noise within my environment)*
 
 ## Getting Started
 
@@ -49,7 +48,6 @@ To get a local copy up and running, follow these steps.
     cd stackup-faucet
     npm install
     ```
-
 3. Start the development server
     ```sh
     npm run dev
@@ -62,4 +60,10 @@ To get a local copy up and running, follow these steps.
 3. Request Sepolia tokens or fund the faucet.
 4. Check the leaderboard to see the top contributors.
 
+## Rewards
 
+The top 5 contributors on the leaderboard will be rewarded with Stackup points on our Discord server. Contribute more to climb up the leaderboard and earn your rewards!
+
+---
+
+*Disclaimer: The video demo is muted due to noise within my environment.*
