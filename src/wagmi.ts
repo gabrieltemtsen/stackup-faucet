@@ -9,14 +9,10 @@ import {
 } from 'wagmi/chains';
 
 export const config = getDefaultConfig({
-  appName: 'RainbowKit App',
-  projectId: 'YOUR_PROJECT_ID',
+  appName: 'Stackup Faucett',
+  projectId: '895594f31386b08d2bfb24005e47ef94',
   chains: [
     mainnet,
-    polygon,
-    optimism,
-    arbitrum,
-    base,
     ...(process.env.NEXT_PUBLIC_ENABLE_TESTNETS === 'true' ? [sepolia] : []),
   ],
   ssr: true,
