@@ -228,7 +228,7 @@ export default function Home() {
       <main className="flex flex-col items-center p-4 w-full max-w-2xl">
         {isConnected ? (
           <div className="bg-white text-black p-6 rounded-lg shadow-lg w-full">
-            <h2 className="text-2xl font-semibold mb-4">Welcome, {address}</h2>
+            <h2 className="text-2xl font-semibold mb-4">Welcome, {username || address}</h2>
             <p className="mb-4">Faucet Balance: {faucetBalance} ETH</p>
             {!isUsernameSet ? (
               <>
@@ -281,7 +281,12 @@ export default function Home() {
             )}
           </div>
         ) : (
-          <p className="text-xl">Please connect your wallet to interact with the faucet.</p>
+          <div className="flex flex-col items-center text-black text-center p-8 bg-white rounded-lg shadow-lg">
+            <h2 className="text-3xl font-bold mb-4">Holla, This is Stackup Faucet</h2>
+            <p className="text-lg mb-4">Request Sepolia testnet tokens every 24 hours and help others by funding the faucet. Connect your wallet to get started!</p>
+            <ConnectButton  />
+            <img src="/illus.png" alt="Faucet Illustration" className="mt-8 w-64" />
+          </div>
         )}
       </main>
     </div>

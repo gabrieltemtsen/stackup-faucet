@@ -25,10 +25,9 @@ The Stackup Faucet is built using modern web technologies, ensuring a seamless a
 
 ## Links
 
-- **Deployed Site**: [Stackup Faucet Live](https://your-deployed-site-link.com)
-- **Working Prototype**: [Prototype Link](https://your-prototype-link.com)
+- **Deployed Site**: [Stackup Faucet Live](https://stackup-faucet.vercel.app/)
 - **Video Demo**: [Watch Demo](https://your-demo-video-link.com)
-- **Illustrations and Mock-ups**: [Design Mock-ups](https://your-design-mockups-link.com)
+
 
 ## Getting Started
 
